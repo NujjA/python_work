@@ -1,0 +1,20 @@
+bikes = ['trek', 'cannoli', 'redline', 'species']
+#print(bikes)
+#print(bikes[0].title())
+# -1 gets the last element from a list, -2 is 2nd to last, etc
+#print(bikes[-1].title())
+#print("Bikes are cool, especially " + bikes[-1].title())
+bikes.append('cheesebike')
+#print("Bikes are cool, especially " + bikes[-1].title())
+print(bikes)
+#bikes.insert(0, 'totorobike')
+#print(bikes)
+#del bikes[2]
+#print(bikes)
+#popped_bike = bikes.pop()
+#print(bikes)
+#print("popped bike is " + popped_bike)
+#bikes.remove('trek')
+#print(bikes)
+bikes.sort(reverse = True)
+print(bikes)
